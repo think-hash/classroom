@@ -1,0 +1,22 @@
+{
+  "name": "classroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "build": "webpack",
+    "serve": "webpack-dev-server --development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "start-webpack-dev-server-hot": "^0.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}
